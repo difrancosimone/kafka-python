@@ -15,10 +15,20 @@ Navigate to the Control Center web interface at http://localhost:9021
 
 ## Python Development
 
-From https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/python.html
+From https://kafka-python.readthedocs.io/en/master/usage.html
 
 Setup env
 
 ‘virtualenv ccloud-venv -p /usr/local/bin/python3.9
 source ./ccloud-venv/bin/activate
 pip install -r requirements.txt‘
+
+Run consumer with
+
+python consumer.py
+
+Run producer with:
+
+python producer.py
+
+# Test producer
