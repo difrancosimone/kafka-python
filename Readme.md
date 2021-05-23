@@ -19,8 +19,8 @@ From https://kafka-python.readthedocs.io/en/master/usage.html
 
 Setup env
 
-‘virtualenv ccloud-venv -p /usr/local/bin/python3.9
-source ./ccloud-venv/bin/activate
+‘virtualenv venv -p /usr/local/bin/python3.9
+source ./venv/bin/activate
 pip install -r requirements.txt‘
 
 # Test producer
