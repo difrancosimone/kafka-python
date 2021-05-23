@@ -23,6 +23,8 @@ Setup env
 source ./ccloud-venv/bin/activate
 pip install -r requirements.txt‘
 
+# Test producer
+
 Run consumer with
 
 python consumer.py
@@ -30,5 +32,3 @@ python consumer.py
 Run producer with:
 
 python producer.py
-
-# Test producer
