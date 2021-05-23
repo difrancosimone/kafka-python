@@ -36,6 +36,12 @@ producer.send('json-topic', {'key': 'value'})
 for _ in range(100):
     producer.send('my-topic', b'msg')
 
+for _ in range(100):
+    producer.send('msgpac-topic', {'key': 'value'})
+
+for _ in range(100):
+    producer.send('json-topic', {'key': 'value'})
+
 def on_send_success(record_metadata):
     print(record_metadata.topic)
     print(record_metadata.partition)
