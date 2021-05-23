@@ -1,4 +1,6 @@
-# Docker kafka setup
+# My first Kafka project
+
+## Docker kafka setup
 
 From https://docs.confluent.io/platform/current/quickstart/ce-docker-quickstart.html#ce-docker-quickstart
 
@@ -8,3 +10,15 @@ $ curl --silent --output docker-compose.yml \
 Start Confluent Platform with the -d option to run in detached mode:
 
 $ docker-compose up -d
+
+Navigate to the Control Center web interface at http://localhost:9021
+
+## Python Development
+
+From https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/python.html
+
+Setup env
+
+‘virtualenv ccloud-venv -p /usr/local/bin/python3.9
+source ./ccloud-venv/bin/activate
+pip install -r requirements.txt‘
